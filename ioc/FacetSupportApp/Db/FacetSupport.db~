@@ -1,0 +1,9 @@
+record(bo, "F2:WATCHER:WAISTLOCATOR_STAT") {
+  field(DESC, "Waist Locater Running Status")
+  field(SCAN, "Passive")
+  field(PINI, "NO")
+  field(DTYP, "Soft Channel")
+  field(VAL, "0")
+  field(OMSL, "supervisory")
+  field(HIGH, "3")
+}
