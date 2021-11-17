@@ -1,4 +1,4 @@
-../O.Common/cathodeSupportSim.dbd: /usr/local/facet/tools/epics/base/dbd/base.dbd \
+../O.Common/FacetSupport.dbd: /usr/local/facet/tools/epics/base/dbd/base.dbd \
     /usr/local/facet/tools/epics/base/dbd/menuGlobal.dbd \
     /usr/local/facet/tools/epics/base/dbd/menuAlarmSevr.dbd \
     /usr/local/facet/tools/epics/base/dbd/menuAlarmStat.dbd \
@@ -51,7 +51,12 @@
     /usr/local/facet/tools/epics/base/dbd/asSub.dbd \
     /usr/local/facet/tools/epics/base/dbd/dbCore.dbd \
     /usr/local/facet/tools/epics/modules/iocAdmin-3-1-15/dbd/iocAdmin.dbd \
-    /usr/local/facet/tools/epics/modules/iocAdmin-3-1-15/dbd/devIocStats.dbd
+    /usr/local/facet/tools/epics/modules/iocAdmin-3-1-15/dbd/devIocStats.dbd \
+    ../xxxSupport.dbd \
+    ../xxxRecord.dbd \
+    ../dbSubExample.dbd \
+    ../FacetSupportHello.dbd \
+    ../initTrace.dbd
 
 /usr/local/facet/tools/epics/base/dbd/base.dbd:
 /usr/local/facet/tools/epics/base/dbd/menuGlobal.dbd:
@@ -107,4 +112,9 @@
 /usr/local/facet/tools/epics/base/dbd/dbCore.dbd:
 /usr/local/facet/tools/epics/modules/iocAdmin-3-1-15/dbd/iocAdmin.dbd:
 /usr/local/facet/tools/epics/modules/iocAdmin-3-1-15/dbd/devIocStats.dbd:
-../O.Common/cathodeSupportSim.dbd: ../Makefile
+../xxxSupport.dbd:
+../xxxRecord.dbd:
+../dbSubExample.dbd:
+../FacetSupportHello.dbd:
+../initTrace.dbd:
+../O.Common/FacetSupport.dbd: ../Makefile

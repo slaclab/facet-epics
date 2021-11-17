@@ -23,8 +23,8 @@
 # the CONFIG_SITE file.
 
 # Variables and paths to dependent modules:
-MODULES = ${EPICS_MODULES_TOP}
-IOCADMIN = $(MODULES)/iocAdmin-3-1-15
+MODULES = /usr/local/facet/tools/epics/modules
+IOCADMIN = ${MODULES}/iocAdmin-3-1-15
 
 # EPICS_BASE should appear last so earlier modules can override stuff:
 EPICS_BASE = ${EPICS_BASE_TOP}

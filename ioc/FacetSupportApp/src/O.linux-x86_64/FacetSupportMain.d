@@ -1,4 +1,4 @@
-cathodeSupportSimMain.o: ../cathodeSupportSimMain.cpp \
+FacetSupportMain.o: ../FacetSupportMain.cpp \
  /usr/local/facet/tools/epics/base/include/epicsExit.h \
  /usr/local/facet/tools/epics/base/include/shareLib.h \
  /usr/local/facet/tools/epics/base/include/epicsThread.h \

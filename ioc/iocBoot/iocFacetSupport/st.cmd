@@ -12,8 +12,14 @@ dbLoadDatabase "dbd/FacetSupport.dbd"
 FacetSupport_registerRecordDeviceDriver pdbbase
 
 ## Load record instances
-dbLoadTemplate "db/user.substitutions"
-dbLoadRecords "db/dbSubExample.db", "user=glen"
+#dbLoadTemplate "db/user.substitutions"
+#dbLoadRecords "db/dbSubExample.db", "user=glen"
+dbLoadRecords "db/FacetSupport.db", "hightime=3"
+
+## iocAdmin
+epicsEnvSet("ENGINEER","Glen White")
+epicsEnvSet("LOCATION","FACET-II")
+dbLoadRecords("db/iocAdminSoft.db","IOC=FacetSupport")
 
 ## Set this to see messages from mySub
 #var mySubDebug 1

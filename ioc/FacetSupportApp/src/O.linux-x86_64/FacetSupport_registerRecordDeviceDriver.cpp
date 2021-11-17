@@ -1,5 +1,5 @@
 /* THIS IS A GENERATED FILE. DO NOT EDIT! */
-/* Generated from ../O.Common/cathodeSupportSim.dbd */
+/* Generated from ../O.Common/FacetSupport.dbd */
 
 #include <string.h>
 
@@ -223,7 +223,7 @@ static struct iocshVarDef vardefs[] = {
     {NULL, iocshArgInt, NULL}
 };
 
-int cathodeSupportSim_registerRecordDeviceDriver(DBBASE *pbase)
+int FacetSupport_registerRecordDeviceDriver(DBBASE *pbase)
 {
     static int executed = 0;
     const char *bldTop = "/usr/local/facet/tools/epics/ioc";
@@ -260,14 +260,14 @@ int cathodeSupportSim_registerRecordDeviceDriver(DBBASE *pbase)
     return 0;
 }
 
-/* cathodeSupportSim_registerRecordDeviceDriver */
+/* FacetSupport_registerRecordDeviceDriver */
 static const iocshArg rrddArg0 = {"pdbbase", iocshArgPdbbase};
 static const iocshArg *rrddArgs[] = {&rrddArg0};
 static const iocshFuncDef rrddFuncDef =
-    {"cathodeSupportSim_registerRecordDeviceDriver", 1, rrddArgs};
+    {"FacetSupport_registerRecordDeviceDriver", 1, rrddArgs};
 static void rrddCallFunc(const iocshArgBuf *)
 {
-    cathodeSupportSim_registerRecordDeviceDriver(*iocshPpdbbase);
+    FacetSupport_registerRecordDeviceDriver(*iocshPpdbbase);
 }
 
 } // extern "C"

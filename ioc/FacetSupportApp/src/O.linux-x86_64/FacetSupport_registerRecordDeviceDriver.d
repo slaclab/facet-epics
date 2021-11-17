@@ -1,5 +1,5 @@
-cathodeSupportSim_registerRecordDeviceDriver.o: \
- cathodeSupportSim_registerRecordDeviceDriver.cpp \
+FacetSupport_registerRecordDeviceDriver.o: \
+ FacetSupport_registerRecordDeviceDriver.cpp \
  /usr/local/facet/tools/epics/base/include/compilerDependencies.h \
  /usr/local/facet/tools/epics/base/include/compiler/gcc/compilerSpecific.h \
  /usr/local/facet/tools/epics/base/include/epicsStdlib.h \

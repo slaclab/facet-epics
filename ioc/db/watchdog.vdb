@@ -3,6 +3,13 @@
 #! DBD("../../dbd/F2-Cathode.dbd")
 #! DBDEND
 
+record(bo, "$(user):watchdogKeepAlive") {
+  field(OUT, "F2:WATCHER:CATHODESUPPORT_STAT PP")
+  field(VAL, "1")
+  field(PINI, "YES")
+  field(FLNK, "F2:WATCHER:CATHODESUPPORT_STAT")
+  field(SCAN, "1 second")
+}
 
 record(bo, "$(user):laserShutterOp") {
   field(DESC, "Control Laser Shutter")

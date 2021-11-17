@@ -1,3 +1,3 @@
-epicsEnvSet("IOC","ioccathodeSupportSim")
+epicsEnvSet("IOC","iocFacetSupport")
 epicsEnvSet("TOP","/usr/local/facet/tools/epics/ioc")
 epicsEnvSet("MODULES","/usr/local/facet/tools/epics/modules")
