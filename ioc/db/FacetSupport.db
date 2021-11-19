@@ -8,6 +8,7 @@ record(bo, "F2:WATCHER:FACETSUPPORT_STAT") {
   field(HIGH, "$(hightime)")
   field(ZNAM, "OFF")
   field(ONAM, "RUNNING")
+  field(ZSV, "MAJOR")
 }
 
 record(bo, "F2:WATCHER:KEEPALIVE") {
@@ -21,39 +22,51 @@ record(bo, "F2:WATCHER:KEEPALIVE") {
 record(bo, "F2:WATCHER:WAISTLOCATOR_STAT") {
   field(DESC, "Waist Locater Running Status")
   field(SCAN, "Passive")
-  field(PINI, "NO")
+  field(PINI, "YES")
   field(DTYP, "Soft Channel")
   field(VAL, "0")
   field(OMSL, "supervisory")
   field(HIGH, "$(hightime)")
+  field(ZNAM, "OFF")
+  field(ONAM, "RUNNING")
+  field(ZSV, "MAJOR")
 }
 
 record(bo, "F2:WATCHER:GUNWATCHER_STAT") {
   field(DESC, "Gun Watcher Running Status")
   field(SCAN, "Passive")
-  field(PINI, "NO")
+  field(PINI, "YES")
   field(DTYP, "Soft Channel")
   field(VAL, "0")
   field(OMSL, "supervisory")
   field(HIGH, "$(hightime)")
+  field(ZNAM, "OFF")
+  field(ONAM, "RUNNING")
+  field(ZSV, "MAJOR")
 }
 
 record(bo, "F2:WATCHER:CATHODESUPPORT_STAT") {
   field(DESC, "Cathode Support Running Status")
   field(SCAN, "Passive")
-  field(PINI, "NO")
+  field(PINI, "YES")
   field(DTYP, "Soft Channel")
   field(VAL, "0")
   field(OMSL, "supervisory")
   field(HIGH, "$(hightime)")
+  field(ZNAM, "OFF")
+  field(ONAM, "RUNNING")
+  field(ZSV, "MAJOR")
 }
 
 record(bo, "F2:WATCHER:FEEDBACKS_STAT") {
   field(DESC, "Gun Watcher Running Status")
   field(SCAN, "Passive")
-  field(PINI, "NO")
+  field(PINI, "YES")
   field(DTYP, "Soft Channel")
   field(VAL, "0")
   field(OMSL, "supervisory")
   field(HIGH, "$(hightime)")
+  field(ZNAM, "OFF")
+  field(ONAM, "RUNNING")
+  field(ZSV, "MAJOR")
 }
