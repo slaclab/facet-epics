@@ -661,4 +661,337 @@ Warning: Duplicate EPICS CA Address list entry "172.27.75.255:5069" discarded
 iocRun: All initialization complete
 ## Start any sequence programs
 #seq sncExample, "user=whitegr"
-epics> 
+epics> CAS: request from 172.27.72.22:53253 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53253 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53253 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53253 ?
+CAS: message received at 2021-11-29 17:08:18
+CAS: request from 172.27.72.22:53253 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53253 => cmmd=51714 cid=0x2000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53253 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53253 ?
+CAS: message received at 2021-11-29 17:08:19
+CAS: request from 172.27.72.22:53253 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53253 => cmmd=51714 cid=0x3000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53253 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53253 ?
+CAS: message received at 2021-11-29 17:08:19
+CAS: request from 172.27.72.22:53253 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53253 => cmmd=51714 cid=0x4000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53253 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53253 ?
+CAS: message received at 2021-11-29 17:08:20
+CAS: request from 172.27.72.22:53253 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53253 => cmmd=51714 cid=0x5000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53253 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53253 ?
+CAS: message received at 2021-11-29 17:08:21
+CAS: request from 172.27.72.22:53253 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53253 => cmmd=51714 cid=0x6000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53253 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53253 ?
+CAS: message received at 2021-11-29 17:08:21
+CAS: request from 172.27.72.22:53253 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53253 => cmmd=51714 cid=0x7000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53253 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53253 ?
+CAS: message received at 2021-11-29 17:08:22
+CAS: request from 172.27.72.22:53253 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53253 => cmmd=51714 cid=0x8000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53253 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53253 ?
+CAS: message received at 2021-11-29 17:08:22
+CAS: request from 172.27.72.22:53253 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53253 => cmmd=51714 cid=0x9000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53253 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53253 ?
+CAS: message received at 2021-11-29 17:08:22
+CAS: request from 172.27.72.22:53253 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53253 => cmmd=51714 cid=0xa000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53253 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53253 ?
+CAS: message received at 2021-11-29 17:08:23
+CAS: request from 172.27.72.22:53253 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53253 => cmmd=51714 cid=0xb000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53253 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53253 ?
+CAS: message received at 2021-11-29 17:08:23
+CAS: request from 172.27.72.22:53253 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53253 => cmmd=51714 cid=0xc000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53253 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53253 ?
+CAS: message received at 2021-11-29 17:08:23
+CAS: request from 172.27.72.22:42176 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:42176 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:42176 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:42176 ?
+CAS: message received at 2021-11-29 17:08:33
+CAS: request from 172.27.72.22:50332 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:50332 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:50332 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:50332 ?
+CAS: message received at 2021-11-29 17:09:12
+CAS: request from 172.27.72.22:54147 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:54147 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:54147 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:54147 ?
+CAS: message received at 2021-11-29 17:27:43
+CAS: request from 172.27.72.22:60214 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:60214 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:60214 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:60214 ?
+CAS: message received at 2021-11-29 17:27:57
+CAS: request from 172.27.72.22:38936 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:38936 => cmmd=51714 cid=0x1000000 type=15360 count=0 postsize=3
+CAS: Request from 172.27.72.22:38936 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:38936 ?
+CAS: message received at 2021-11-29 17:28:24
+CAS: request from 172.27.72.22:48811 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:48811 => cmmd=51714 cid=0x1000000 type=15360 count=0 postsize=3
+CAS: Request from 172.27.72.22:48811 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:48811 ?
+CAS: message received at 2021-11-29 17:28:37
+CAS: request from 172.27.72.22:46528 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:46528 => cmmd=51714 cid=0x1000000 type=15360 count=0 postsize=3
+CAS: Request from 172.27.72.22:46528 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:46528 ?
+CAS: message received at 2021-11-29 17:29:10
+CAS: request from 172.27.72.22:57933 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:57933 => cmmd=51714 cid=0x1000000 type=15360 count=0 postsize=3
+CAS: Request from 172.27.72.22:57933 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:57933 ?
+CAS: message received at 2021-11-29 17:29:14
+CAS: request from 172.27.72.22:42284 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:42284 => cmmd=51714 cid=0x1000000 type=15360 count=0 postsize=3
+CAS: Request from 172.27.72.22:42284 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:42284 ?
+CAS: message received at 2021-11-29 17:29:17
+CAS: request from 172.27.72.22:47234 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:47234 => cmmd=51714 cid=0x1000000 type=15360 count=0 postsize=3
+CAS: Request from 172.27.72.22:47234 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:47234 ?
+CAS: message received at 2021-11-29 17:29:20
+CAS: request from 172.27.72.22:58788 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:58788 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:58788 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:58788 ?
+CAS: message received at 2021-11-29 17:29:26
+CAS: request from 172.27.72.22:43984 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:43984 => cmmd=51714 cid=0x1000000 type=15360 count=0 postsize=3
+CAS: Request from 172.27.72.22:43984 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:43984 ?
+CAS: message received at 2021-11-29 17:29:31
+CAS: request from 172.27.72.22:36188 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:36188 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:36188 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:36188 ?
+CAS: message received at 2021-11-29 17:29:41
+CAS: request from 172.27.72.22:36188 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:36188 => cmmd=51714 cid=0x2000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:36188 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:36188 ?
+CAS: message received at 2021-11-29 17:29:41
+CAS: request from 172.27.72.22:36188 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:36188 => cmmd=51714 cid=0x3000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:36188 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:36188 ?
+CAS: message received at 2021-11-29 17:29:41
+CAS: request from 172.27.72.22:36188 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:36188 => cmmd=51714 cid=0x4000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:36188 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:36188 ?
+CAS: message received at 2021-11-29 17:29:42
+CAS: request from 172.27.72.22:36188 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:36188 => cmmd=51714 cid=0x5000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:36188 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:36188 ?
+CAS: message received at 2021-11-29 17:29:43
+CAS: request from 172.27.72.22:36188 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:36188 => cmmd=51714 cid=0x6000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:36188 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:36188 ?
+CAS: message received at 2021-11-29 17:29:43
+CAS: request from 172.27.72.22:36188 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:36188 => cmmd=51714 cid=0x7000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:36188 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:36188 ?
+CAS: message received at 2021-11-29 17:29:44
+CAS: request from 172.27.72.22:36188 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:36188 => cmmd=51714 cid=0x8000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:36188 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:36188 ?
+CAS: message received at 2021-11-29 17:29:45
+CAS: request from 172.27.72.22:55919 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:55919 => cmmd=51714 cid=0x1000000 type=15360 count=0 postsize=3
+CAS: Request from 172.27.72.22:55919 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:55919 ?
+CAS: message received at 2021-11-29 17:29:53
+CAS: request from 172.27.72.22:36985 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:36985 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:36985 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:36985 ?
+CAS: message received at 2021-12-06 13:30:37
+CAS: request from 172.27.72.22:50415 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:50415 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:50415 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:50415 ?
+CAS: message received at 2021-12-06 13:30:41
+CAS: request from 172.27.72.22:54323 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:54323 => cmmd=51714 cid=0x1000000 type=12032 count=0 postsize=3
+CAS: Request from 172.27.72.22:54323 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:54323 ?
+CAS: message received at 2021-12-06 13:30:47
+CAS: request from 172.27.72.22:54323 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:54323 => cmmd=51714 cid=0x2000000 type=12032 count=0 postsize=3
+CAS: Request from 172.27.72.22:54323 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:54323 ?
+CAS: message received at 2021-12-06 13:30:47
+CAS: request from 172.27.72.22:54323 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:54323 => cmmd=51714 cid=0x3000000 type=12032 count=0 postsize=3
+CAS: Request from 172.27.72.22:54323 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:54323 ?
+CAS: message received at 2021-12-06 13:30:47
+CAS: request from 172.27.72.22:54323 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:54323 => cmmd=51714 cid=0x4000000 type=12032 count=0 postsize=3
+CAS: Request from 172.27.72.22:54323 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:54323 ?
+CAS: message received at 2021-12-06 13:30:48
+CAS: request from 172.27.72.22:54323 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:54323 => cmmd=51714 cid=0x5000000 type=12032 count=0 postsize=3
+CAS: Request from 172.27.72.22:54323 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:54323 ?
+CAS: message received at 2021-12-06 13:30:50
+CAS: request from 172.27.72.22:54323 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:54323 => cmmd=51714 cid=0x6000000 type=12032 count=0 postsize=3
+CAS: Request from 172.27.72.22:54323 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:54323 ?
+CAS: message received at 2021-12-06 13:30:51
+CAS: request from 172.27.72.22:54323 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:54323 => cmmd=51714 cid=0x7000000 type=12032 count=0 postsize=3
+CAS: Request from 172.27.72.22:54323 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:54323 ?
+CAS: message received at 2021-12-06 13:30:51
+CAS: request from 172.27.72.22:54323 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:54323 => cmmd=51714 cid=0x8000000 type=12032 count=0 postsize=3
+CAS: Request from 172.27.72.22:54323 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:54323 ?
+CAS: message received at 2021-12-06 13:30:51
+CAS: request from 172.27.72.22:39541 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:39541 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:39541 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:39541 ?
+CAS: message received at 2021-12-06 13:30:55
+CAS: request from 172.27.72.22:43199 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:43199 => cmmd=51714 cid=0x1000000 type=14336 count=0 postsize=3
+CAS: Request from 172.27.72.22:43199 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:43199 ?
+CAS: message received at 2021-12-06 13:30:59
+CAS: request from 172.27.72.22:46125 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:46125 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:46125 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:46125 ?
+CAS: message received at 2021-12-06 13:31:01
+CAS: request from 172.27.72.22:55344 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:55344 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:55344 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:55344 ?
+CAS: message received at 2021-12-06 13:31:39
+CAS: request from 172.27.72.22:53886 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53886 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53886 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53886 ?
+CAS: message received at 2021-12-06 13:32:24
+CAS: request from 172.27.72.22:53886 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53886 => cmmd=51714 cid=0x2000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53886 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53886 ?
+CAS: message received at 2021-12-06 13:32:25
+CAS: request from 172.27.72.22:53886 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53886 => cmmd=51714 cid=0x3000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53886 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53886 ?
+CAS: message received at 2021-12-06 13:32:25
+CAS: request from 172.27.72.22:53886 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53886 => cmmd=51714 cid=0x4000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53886 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53886 ?
+CAS: message received at 2021-12-06 13:32:25
+CAS: request from 172.27.72.22:53886 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53886 => cmmd=51714 cid=0x5000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53886 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53886 ?
+CAS: message received at 2021-12-06 13:32:26
+CAS: request from 172.27.72.22:53886 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53886 => cmmd=51714 cid=0x6000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53886 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53886 ?
+CAS: message received at 2021-12-06 13:32:26
+CAS: request from 172.27.72.22:53886 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:53886 => cmmd=51714 cid=0x7000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:53886 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:53886 ?
+CAS: message received at 2021-12-06 13:32:27
+CAS: request from 172.27.72.22:37254 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:37254 => cmmd=51714 cid=0x1000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:37254 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:37254 ?
+CAS: message received at 2021-12-06 13:32:46
+CAS: request from 172.27.72.22:37254 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:37254 => cmmd=51714 cid=0x2000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:37254 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:37254 ?
+CAS: message received at 2021-12-06 13:32:46
+CAS: request from 172.27.72.22:37254 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:37254 => cmmd=51714 cid=0x3000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:37254 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:37254 ?
+CAS: message received at 2021-12-06 13:32:47
+CAS: request from 172.27.72.22:37254 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:37254 => cmmd=51714 cid=0x4000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:37254 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:37254 ?
+CAS: message received at 2021-12-06 13:32:48
+CAS: request from 172.27.72.22:37254 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:37254 => cmmd=51714 cid=0x5000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:37254 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:37254 ?
+CAS: message received at 2021-12-06 13:32:48
+CAS: request from 172.27.72.22:37254 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:37254 => cmmd=51714 cid=0x6000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:37254 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:37254 ?
+CAS: message received at 2021-12-06 13:32:48
+CAS: request from 172.27.72.22:37254 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:37254 => cmmd=51714 cid=0x7000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:37254 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:37254 ?
+CAS: message received at 2021-12-06 13:32:48
+CAS: request from 172.27.72.22:37254 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:37254 => cmmd=51714 cid=0x8000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:37254 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:37254 ?
+CAS: message received at 2021-12-06 13:32:49
+CAS: request from 172.27.72.22:37254 => CAS: Missaligned protocol rejected
+CAS: Request from 172.27.72.22:37254 => cmmd=51714 cid=0x9000000 type=14080 count=0 postsize=3
+CAS: Request from 172.27.72.22:37254 =>   available=0x0         N=0 paddr=(nil)
+CAS: invalid (damaged?) UDP request from 172.27.72.22:37254 ?
+CAS: message received at 2021-12-06 13:32:50
+DB CA Link Exception: "Virtual circuit unresponsive", context "ioc-lr10-ls02.slac.stanford.edu:5068"
+Unexpected problem with CA circuit to server "ioc-lr10-ls02.slac.stanford.edu:5068" was "Connection reset by peer" - disconnecting
+DB CA Link Exception: "Virtual circuit disconnect", context "ioc-lr10-ls02.slac.stanford.edu:5068"
+DB CA Link Exception: "Virtual circuit unresponsive", context "ioc-lr10-ls02.slac.stanford.edu:5068"
+Unexpected problem with CA circuit to server "ioc-lr10-ls02.slac.stanford.edu:5068" was "Connection reset by peer" - disconnecting
+DB CA Link Exception: "Virtual circuit disconnect", context "ioc-lr10-ls02.slac.stanford.edu:5068"
+DB CA Link Exception: "Virtual circuit unresponsive", context "ioc-lr10-ls02.slac.stanford.edu:5068"
+Unexpected problem with CA circuit to server "ioc-lr10-ls02.slac.stanford.edu:5068" was "Connection reset by peer" - disconnecting
+DB CA Link Exception: "Virtual circuit disconnect", context "ioc-lr10-ls02.slac.stanford.edu:5068"
+DB CA Link Exception: "Virtual circuit unresponsive", context "ioc-lr10-ls02.slac.stanford.edu:5068"
+Unexpected problem with CA circuit to server "ioc-lr10-ls02.slac.stanford.edu:5068" was "Connection reset by peer" - disconnecting
+DB CA Link Exception: "Virtual circuit disconnect", context "ioc-lr10-ls02.slac.stanford.edu:5068"
+DB CA Link Exception: "Virtual circuit unresponsive", context "ioc-lr10-ls02.slac.stanford.edu:5068"
+Unexpected problem with CA circuit to server "ioc-lr10-ls02.slac.stanford.edu:5068" was "Connection reset by peer" - disconnecting
+DB CA Link Exception: "Virtual circuit disconnect", context "ioc-lr10-ls02.slac.stanford.edu:5068"
+DB CA Link Exception: "Virtual circuit disconnect", context "facet-srv02.slac.stanford.edu:41151"
+DB CA Link Exception: "Virtual circuit disconnect", context "facet-srv02.slac.stanford.edu:45035"
+DB CA Link Exception: "Virtual circuit disconnect", context "facet-srv02.slac.stanford.edu:36356"
+DB CA Link Exception: "Virtual circuit disconnect", context "facet-srv02.slac.stanford.edu:35642"
